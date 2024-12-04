@@ -1,5 +1,5 @@
 body{
-    background-image: radial-gradient(rgb(178,216,216),rgb(0,76,76));
+    background-image: radial-gradient(rgb(178, 216, 216),rgb(0, 76, 76));
     min-height : 100vh; 
     padding: 0;
 }
@@ -26,4 +26,12 @@ body{
 
 .padding{
     padding-top: 2em;
+}
+
+.centro{
+    background-color: rgb(236,232,234);
+}
+
+.texto-consultas{
+    color: rgb(0, 29, 29);
 }
