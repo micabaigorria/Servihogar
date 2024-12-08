@@ -77,3 +77,32 @@ th {
 
 .centro{
     background-color: rgb(236,232,234);
+}
+
+/*Servicios*/
+/* Estilo para las tarjetas de servicios */
+.servicio-card {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Estilo para los iconos dentro de las tarjetas */
+.servicio-card i {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Efecto de hover en la tarjeta completa */
+.servicio-card:hover {
+    transform: translateY(-10px);
+    /* Mueve la tarjeta hacia arriba */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    /* Añade sombra a la tarjeta */
+}
+
+/* Efecto de hover en el icono */
+.servicio-card:hover i {
+    transform: scale(1.2);
+    /* Aumenta el tamaño del icono */
+    color: #007bff;
+    /* Cambia el color del icono al pasar el cursor */
+}
